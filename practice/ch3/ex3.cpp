@@ -63,10 +63,9 @@ void processCard(char card, int& score, int& ace_count) {
 
 int main() {
   // variables
-  int num_cards;
+  int num_cards, score, ace_count;
   char card_char;
-  int score;
-  int ace_count;
+  
   char repeat;
 
   // repeat loop
